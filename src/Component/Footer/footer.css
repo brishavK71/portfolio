@@ -1,0 +1,76 @@
+footer{
+    background: var(--color-primary);
+    padding: 3rem;
+    text-align: center;
+    margin-top: 0.7rem;
+    font-size: 0.9rem;
+}
+
+footer a{
+    color: var(--color-bg);
+}
+
+.footer__logo{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.permalinks{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+}
+.footer__socials{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    margin-bottom: 4rem;
+}
+
+.footer__socials a{
+    background: var(--color-bg);
+    color: var(--color-white);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    font-size: 1.2rem;
+    transition: var(--transition);
+    justify-content: center;
+    border: 2px solid transparent;
+}
+
+.footer__socials a:hover{
+    background: transparent;
+    color: var(--color-bg);
+    border-color:  var(--color-bg);
+}
+
+.footer__copyright{
+    color: var(--color-bg);
+    margin-bottom: 4rem;
+}
+
+/*======================= FOR MEDIUM DEVICES====================== */
+
+@media screen and (max-width:1024px){
+    
+    
+      
+    }
+  
+  
+  /*======================= FOR SMALL DEVICES====================== */
+    @media screen and (max-width:600px){
+        .permalinks{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap:2rem;
+            margin-bottom: 3rem;
+            justify-content: center;
+        }
+      
+      
+    }

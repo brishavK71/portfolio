@@ -1,0 +1,58 @@
+/* #experience{
+  margin-top: 10rem;
+} */
+.experience__frontend{
+text-align: center;
+}
+
+.experience__content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 4rem;
+    gap: 2rem;
+    width: auto;
+}
+
+.experience__details{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition)
+}
+.experience__details:hover{
+    transition: var(--transition);
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.experience__icon{
+    color: var(--color-primary);
+}
+
+
+/*======================= FOR MEDIUM DEVICES====================== */
+@media screen and (max-width:1024px){
+  .experience__content{
+    /* grid-template-columns: 1fr; */
+    text-align: center;
+  }
+  
+    
+  }
+
+
+/*======================= FOR SMALL DEVICES====================== */
+  @media screen and (max-width:600px){
+    .experience__content{
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+    .experience__details{
+      margin: 0 4rem 0 4rem;
+    }
+  
+    
+    
+  }
