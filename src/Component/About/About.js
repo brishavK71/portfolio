@@ -36,7 +36,7 @@ const About = () => {
               <small>10+ individual projects</small>
             </article>
           </div>
-          <div className="description"><p>Hi! I am Brishav Kuikel , a student currently pursuing a Bachelor's degree in Computer Science and      Information Technology. With a passion for technology and a strong work ethic, I have been able to make the most of his educational experience thus far. In addition to my studies, I have also been able to gain valuable project work experience, further developing my technical skills and knowledge. With a strong foundation in computer science and a commitment to excellence, I am poised to make a significant impact in the field in the years to come.</p></div>
+          <div className="description"><p>Hi! I am Brishav Kuikel , a student currently pursuing a Bachelor's degree in Computer Science and Information Technology. With a passion for technology and a strong work ethic, I have been able to make the most of his educational experience thus far. In addition to my studies, I have also been able to gain valuable project work experience, further developing my technical skills and knowledge. With a strong foundation in computer science and a commitment to excellence, I am poised to make a significant impact in the field in the years to come.</p></div>
           <a href="#contact" className='btn btn-primary'>Let's talk</a>
         </div>
       </div>
