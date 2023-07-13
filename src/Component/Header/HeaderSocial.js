@@ -8,7 +8,7 @@ const social = () => {
         <a href="https://github.com/brishavK71" target="_blank" rel="noopner noreferrer">
             <AiFillGithub/>
         </a>
-        <a href="https://www.linkedin.com/in/brishav-upadhyay-kuikel-06b98b237/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/brishav-kuikel-b2b78025a/" target="_blank" rel="noopener noreferrer">
             <BsLinkedin/>
         </a>
         
